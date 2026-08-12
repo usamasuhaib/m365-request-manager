@@ -70,6 +70,7 @@ The Agile methodology specifications and backlog items are stored in the core pl
 * **[Architecture Spine](file:///c:/Solvefy%20Projects/M365%20DemoApp/_bmad-output/planning-artifacts/ARCHITECTURE-SPINE.md)**: System design invariants (AD-1 to AD-5), technical stack, and namespace boundaries.
 * **[Agile Epics & Stories Breakdown](file:///c:/Solvefy%20Projects/M365%20DemoApp/_bmad-output/planning-artifacts/epics.md)**: Complete sprint backlog (3 Epics, 11 User Stories) with Given/When/Then acceptance criteria.
 * **[Live Demo Script Guide](file:///c:/Solvefy%20Projects/M365%20DemoApp/docs/demo-guide.md)**: Step-by-step scripts for demonstrating all CRUD features, security gates, and Outlook extensions.
+* **[M365 Tech Notes Reference](file:///c:/Solvefy%20Projects/M365%20DemoApp/docs/m365-integration-notes.md)**: Architecture details of OAuth 2.0 SSO, Microsoft Graph call routing, SharePoint file libraries, and Teams channel notifications.
 
 ---
 

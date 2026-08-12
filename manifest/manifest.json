@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "e7b0e14a-717b-402a-9e12-c2b64d5fa3f9",
+  "packageName": "com.solvefy.m365requestmanager",
+  "developer": {
+    "name": "Solvefy",
+    "websiteUrl": "https://solvefy.com",
+    "privacyUrl": "https://solvefy.com/privacy",
+    "termsOfUseUrl": "https://solvefy.com/terms"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Request Manager",
+    "full": "Microsoft 365 Request & Document Manager"
+  },
+  "description": {
+    "short": "Manage requests and documents natively inside M365",
+    "full": "A proof of concept demo showing native Microsoft 365 tab and email add-in integration with SharePoint and Azure Functions."
+  },
+  "accentColor": "#0078d4",
+  "configurableTabs": [],
+  "staticTabs": [
+    {
+      "entityId": "dashboardTab",
+      "name": "Request Dashboard",
+      "contentUrl": "https://localhost:3000/index.html#/?name={loginHint}",
+      "websiteUrl": "https://localhost:3000/index.html#/",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageBacklog"
+  ],
+  "validDomains": [
+    "localhost"
+  ],
+  "webApplicationInfo": {
+    "id": "YOUR_BACKEND_APP_CLIENT_ID",
+    "resource": "api://YOUR_BACKEND_APP_CLIENT_ID"
+  }
+}
