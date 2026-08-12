@@ -1,0 +1,39 @@
+# ==========================================
+# Microsoft 365 Request Manager - Git Ignore
+# ==========================================
+
+# 🏛️ .NET / Azure Functions
+bin/
+obj/
+RequestManager.Functions/bin/
+RequestManager.Functions/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+local.settings.json
+
+# 🎨 React Frontend / Node.js
+node_modules/
+dist/
+src/RequestManager.Frontend/node_modules/
+src/RequestManager.Frontend/dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🤖 BMad Framework
+_bmad/config.user.yaml
+_bmad/.automator/
+_bmad/.bmad-loop/
+
+# 🖥️ OS Metadata
+Thumbs.db
+.DS_Store
+desktop.ini
